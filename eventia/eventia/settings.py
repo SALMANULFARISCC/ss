@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'events.apps.EventsConfig',
     'accounts.apps.AccountsConfig',
     'Eventia_web.apps.EventiaWebConfig',
     'django.contrib.admin',
