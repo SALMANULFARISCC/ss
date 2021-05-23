@@ -17,7 +17,7 @@ def login(request):
             auth.login(request, user)
             return redirect('/')
         else:
-            message.info(request,'invalid carendials')
+            # message.info(request,'invalid carendials')
             return redirect('login')
   
     return render(request,'login.html')         
